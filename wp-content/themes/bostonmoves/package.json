@@ -1,0 +1,26 @@
+{
+  "name": "bostonmoves",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/great-simonlee/bostonmovesre/issues"
+  },
+  "homepage": "https://github.com/great-simonlee/bostonmovesre#readme",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "@wordpress/scripts": "^24.2.0",
+    "axios": "^0.27.2",
+    "googleapis": "^108.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}
