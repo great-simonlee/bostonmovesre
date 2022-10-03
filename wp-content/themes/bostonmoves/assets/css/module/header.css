@@ -1,0 +1,156 @@
+/* LANGUAGE AND SOCIAL MEDIA BAR */
+
+.header-social-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh 3vw;
+  background-color: rgb(51, 51, 51);
+}
+
+.header-social-nav-bar a {
+  font-weight: lighter;
+  font-size: 2.5vw;
+  color: #c9c9c9;
+}
+
+.header-social-community {
+  display: flex;
+}
+
+.header-social-community-item {
+  margin-left: 5vw;
+}
+
+/* NAVBAR WITH MENU */
+.header-global-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 1vh 2vw;
+  color: #fff;
+}
+
+.header-global-nav a {
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-logo-container {
+  font-size: 6vw;
+  margin-left: 1vw;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-logo {
+  width: 7vw;
+  height: 7vw;
+  margin-top: 3px;
+}
+
+.header-menu-toggle-icon {
+  padding: 0.2rem;
+  font-size: 7vw;
+  margin-right: 1rem;
+}
+
+.header-main-navbar-items {
+  display: none;
+}
+
+.showHeaderMenu {
+  display: block;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  background-color: var(--main-color-dark);
+  width: 100%;
+  font-weight: lighter;
+  z-index: 999;
+}
+
+.header-main-navbar-items-list {
+  margin: 1.5vh 0 1.5vh 0;
+  font-size: 3vw;
+}
+
+/* Cell phone landscape */
+@media (min-width: 576px) {
+  .header-social-nav-bar a {
+    font-size: 15px;
+  }
+
+  .header-social-community-item {
+    margin-left: 30px;
+  }
+
+  .header-logo-container {
+    font-size: 34px;
+    margin-left: 1vw;
+  }
+
+  .header-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-menu-toggle-icon {
+    padding: 0.2rem;
+    font-size: 38px;
+    margin-right: 1rem;
+  }
+
+  .header-main-navbar-items-list {
+    font-size: 18px;
+  }
+}
+/* Tablets */
+@media (min-width: 768px) {
+}
+/* Large devices */
+@media (min-width: 992px) {
+  .header-container {
+    margin-left: 30px;
+    align-items: center;
+  }
+
+  .header-main-navbar {
+    margin-right: 30px;
+  }
+
+  .header-logo-container {
+    font-size: 24px;
+    margin-left: 6px;
+  }
+
+  .header-logo {
+    width: auto;
+    height: 40px;
+  }
+
+  .header-global-nav {
+    padding: 20px 15px;
+  }
+
+  .header-menu-toggle-icon {
+    display: none;
+  }
+
+  .header-main-navbar-items {
+    display: flex;
+  }
+
+  .header-main-navbar-items-list {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 18px;
+    border: none;
+  }
+}
+/* Extra large devices */
+@media (min-width: 1200px) {
+}

@@ -1,4 +1,65 @@
-        <h1>WORLD THIS IS FOOTER</h1>
+
+        <div class="main-footer">
+            <div class="main-footer-info">
+                <div class="main-footer-info-company">
+                    <div class="footer-logo-container"><img class="header-logo" src="<?php echo get_theme_file_uri('/assets/img/logo/boston_header_logo.png') ?>" alt="BOSTON MOVES HOME" /></div> 
+                    <p>475 Commonwealth Ave #103</p>
+                    <p>Boston, MA 02215</p>
+                    <p>+1 (617) 600 - 8407</p>
+                    <p>alex@bostonmovesre.com</p>
+                </div>
+                <div class="main-footer-info-services">
+                    <div class="main-footer-info-services-container">
+                        <div class="main-footer-info-title"><p class="main-footer-menu-child">COMPANY</p><p class="main-footer-info-title-downtri">&#9662;</p></div>
+                        <ul class="main-footer-dropdown-menu">
+                            <li class="main-footer-info-link"><a href="<?php echo site_url('/about-us') ?>"><p>ABOUT US</p></a></li>
+                            <li class="main-footer-info-link"><a href="<?php echo site_url('/agents') ?>"><p>OUR TEAM</p></a></li>
+                            <li class="main-footer-info-link"><a href="<?php echo site_url('/careers') ?>"><p>CAREERS</p></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-footer-info-services-container">
+                        <div class="main-footer-info-title"><p class="main-footer-menu-child">SERVICES</p><p class="main-footer-info-title-downtri">&#9662;</p></div>
+                        <ul class="main-footer-dropdown-menu">
+                            <li class="main-footer-info-link"><a href="<?php echo site_url('/homes-for-sale-search') ?>"><p>BUY</p></a></li>
+                            <li class="main-footer-info-link"><a href="<?php echo site_url('/sell') ?>"><p>SELL</p></a></li>
+                            <li class="main-footer-info-link"><a href="https://newyorkmovesre.com/homes-for-sale-results/?propertyType=RNT&pg=1&sortBy=ds&cityId=52244&status=active"><p>RENT</p></a></li>
+                            <li class="main-footer-info-link"><a href="<?php echo site_url('/roommate') ?>"><p>ROOMMATES</p></a></li>
+                        </ul>
+                    </div>
+                    <div class="main-footer-info-services-container">
+                        <div class="main-footer-info-title"><p class="main-footer-menu-child">NEIGHBORHOODS</p><p class="main-footer-info-title-downtri">&#9662;</p></div>
+                        <ul class="main-footer-dropdown-menu">
+                            <li><a href="<?php echo site_url('/neighborhoods/soho/') ?>" class="main-footer-info-link"><p>SOHO</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/midtown/') ?>" class="main-footer-info-link"><p>MIDTOWN</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/hells-kitchen/') ?>" class="main-footer-info-link"><p>HELL'S KITCHEN</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/financial-district/') ?>" class="main-footer-info-link"><p>FINANCIAL DISTRICT</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/chelsea/') ?>" class="main-footer-info-link"><p>CHELSEA</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/murray-hill/') ?>" class="main-footer-info-link"><p>MURRAY HILL</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/west-village/') ?>" class="main-footer-info-link"><p>WEST VILLAGE</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/east-village/') ?>" class="main-footer-info-link"><p>EAST VILLAGE</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/upper-west-side/') ?>" class="main-footer-info-link"><p>UPPER WEST SIDE</p></a></li>
+                            <li><a href="<?php echo site_url('/neighborhoods/upper-east-side/') ?>" class="main-footer-info-link"><p>UPPER EAST SIDE</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-footer-tags">
+                <div class="main-footer-tags-container">
+                    <p>Copyright BOSTON MOVES REAL ESTATE. All Rights Reserved.</p>
+                    <div class="main-footer-tags-policy-one">
+                        <a href="<?php echo site_url('/terms-of-use') ?>"><p>Terms of Use</p></a>
+                        <a href="<?php echo site_url('/privacy-policy') ?>"><p>Privacy Policy</p></a>
+                    </div>
+                </div>
+                <div class="main-footer-tags-ext">
+                2022 BOSTON MOVES REAL ESTATE. ALL MATERIALS PRESENTED HEREIN ARE INTENDED FOR INFORMATION PURPOSES ONLY. YET THIS INFORMATION IS BELIEVED TO BE CORRECT, IT MAY BE SUBJECT TO ERRORS, OMISSIONS, CHANGES, OR WITHDRAWAL WITHOUT NOTIFICATION. THE INFORMATION IS INCLUDING BUT NOT LIMITED TO SQUARE FOOTAGE, ROOM COUNT, NUMBER OF BEDROOMS, ETC. 
+                </div>
+                <div class="main-footer-tags-policy-two">
+                    <a href="<?php echo site_url('/terms-of-use') ?>"><p>Terms of Use</p></a>
+                    <a href="<?php echo site_url('/privacy-policy') ?>"><p>Privacy Policy</p></a>
+                </div>
+            </div>
+        </div>
 
         <!-- Firebase JS -->
         <!-- <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
