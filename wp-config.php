@@ -20,13 +20,13 @@
  */
 
 // ** Database settings - You can get this info from your web host ** //
-if (strstr($_SERVER['SERVER_NAME'], 'chinamovesusa.local')) {
+if (strstr($_SERVER['SERVER_NAME'], 'bostonmovesre.local')) {
 	define( 'DB_NAME', 'local' );
 	define( 'DB_USER', 'root' );
 	define( 'DB_PASSWORD', 'root' );
 	define( 'DB_HOST', 'localhost' );
 } else {
-	define( 'DB_NAME', 'koreamov_chinamovesusa' );
+	define( 'DB_NAME', 'koreamov_bostonmovesre' );
 	define( 'DB_USER', 'koreamov_simon' );
 	define( 'DB_PASSWORD', '123qwe' );
 	define( 'DB_HOST', '127.0.0.1' );
