@@ -29,7 +29,7 @@
                     <ul class="header-main-navbar-items">
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/buy') ?>">BUY</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/sell') ?>">SELL</a></li>
-                        <li class="header-main-navbar-items-list"><a href="">RENT</a></li>
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/rent') ?>">RENT</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/about-us') ?>">ABOUT US</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/career') ?>">CAREER</a></li>
                         <li class="header-main-navbar-items-list"><a href="https://www.newyorkmovesre.com/" target="_blank">NEW YORK</a></li>
