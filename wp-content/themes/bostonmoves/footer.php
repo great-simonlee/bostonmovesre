@@ -26,21 +26,6 @@
                             <li class="main-footer-info-link"><a href="<?php echo site_url('/roommate') ?>"><p>ROOMMATES</p></a></li>
                         </ul>
                     </div>
-                    <div class="main-footer-info-services-container">
-                        <div class="main-footer-info-title"><p class="main-footer-menu-child">NEIGHBORHOODS</p><p class="main-footer-info-title-downtri">&#9662;</p></div>
-                        <ul class="main-footer-dropdown-menu">
-                            <li><a href="<?php echo site_url('/neighborhoods/soho/') ?>" class="main-footer-info-link"><p>SOHO</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/midtown/') ?>" class="main-footer-info-link"><p>MIDTOWN</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/hells-kitchen/') ?>" class="main-footer-info-link"><p>HELL'S KITCHEN</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/financial-district/') ?>" class="main-footer-info-link"><p>FINANCIAL DISTRICT</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/chelsea/') ?>" class="main-footer-info-link"><p>CHELSEA</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/murray-hill/') ?>" class="main-footer-info-link"><p>MURRAY HILL</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/west-village/') ?>" class="main-footer-info-link"><p>WEST VILLAGE</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/east-village/') ?>" class="main-footer-info-link"><p>EAST VILLAGE</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/upper-west-side/') ?>" class="main-footer-info-link"><p>UPPER WEST SIDE</p></a></li>
-                            <li><a href="<?php echo site_url('/neighborhoods/upper-east-side/') ?>" class="main-footer-info-link"><p>UPPER EAST SIDE</p></a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="main-footer-tags">
