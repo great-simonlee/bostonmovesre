@@ -13,9 +13,9 @@
                 <a href="/"><p>LANGUAGES&nbsp;&nbsp;&#9662;</p></a>
                 <div class="header-menu-toggle">
                     <ul class="header-social-community">
-                        <li class="header-social-community-item"><a href="https://www.facebook.com/newyorkmovesre/"><i class="fa fa-facebook header-social-facebook"></i></a></li>
-                        <li class="header-social-community-item"><a href="https://www.instagram.com/newyorkmovesteam/?hl=en"><i class="header-social-instagram fa fa-instagram"></i></a></li>
-                        <li class="header-social-community-item"><a href="https://www.linkedin.com/company/new-york-moves"><i class="header-social-linkedin fa fa-linkedin"></i></a></li>
+                        <li class="header-social-community-item"><a href="https://www.facebook.com/BostonMoves"><i class="fa fa-facebook header-social-facebook"></i></a></li>
+                        <li class="header-social-community-item"><a href="https://instagram.com/bostonmovesteam?igshid=YmMyMTA2M2Y="><i class="header-social-instagram fa fa-instagram"></i></a></li>
+                        <li class="header-social-community-item"><a href="https://www.linkedin.com/company/boston-moves-real-estate"><i class="header-social-linkedin fa fa-linkedin"></i></a></li>
                         <li class="header-social-community-item"><a href="#"><i class="header-social-nym fa fa-user-circle" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
