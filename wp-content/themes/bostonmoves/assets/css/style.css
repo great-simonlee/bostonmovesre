@@ -1,4 +1,5 @@
 @import './module/base.css';
 @import './module/header.css';
 @import './module/footer.css';
-@import './module/front.css';
+
+@import './page/front.css';
