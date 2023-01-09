@@ -78,6 +78,10 @@
   font-size: 3vw;
 }
 
+.header-main-navbar-items-list:hover {
+  text-decoration: underline;
+}
+
 /* Cell phone landscape */
 @media (min-width: 576px) {
   .header-social-nav-bar a {

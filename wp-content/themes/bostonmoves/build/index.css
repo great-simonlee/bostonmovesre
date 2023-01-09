@@ -125,6 +125,10 @@ a:focus {
   font-size: 3vw;
 }
 
+.header-main-navbar-items-list:hover {
+  text-decoration: underline;
+}
+
 /* Cell phone landscape */
 @media (min-width: 576px) {
   .header-social-nav-bar a {
@@ -522,6 +526,111 @@ a:focus {
 /*!****************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./assets/css/page/onlineSchool.css ***!
   \****************************************************************************************************************/
+
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./assets/css/page/sell.css ***!
+  \********************************************************************************************************/
+.sell-page-header {
+  position: relative;
+  width: 100vw;
+}
+
+.sell-page-header-img {
+  width: 100%;
+}
+
+.sell-page-header-div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.sell-page-header-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.sell-page-header-subtitle {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+
+.sell-page-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sell-page-body-content {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.sell-page-body-content-title {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.sell-page-body-content-text {
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.sell-page-email {
+  margin: 100px 0;
+}
+
+.sell-page-email-title {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sell-page-email-input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.sell-page-email-input {
+  width: 460px;
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 20px;
+  border: none;
+  border-bottom: #000000 1px solid;
+}
+
+.sell-page-email-input:focus {
+  outline: none;
+}
+
+.sell-page-email-text-btn {
+  width: 460px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.sell-page-email-text-btn:hover {
+  opacity: 1;
+}
 
 
 /*# sourceMappingURL=index.css.map*/

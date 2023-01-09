@@ -10,12 +10,12 @@
     <body <?php body_class();?>>
         <header id="header">
             <div class="header-social-nav-bar">
-                <a href="/"><p>LANGUAGES&nbsp;&nbsp;&#9662;</p></a>
+                <a href="/"><p>&nbsp;&nbsp;</p></a>
                 <div class="header-menu-toggle">
                     <ul class="header-social-community">
-                        <li class="header-social-community-item"><a href="https://www.facebook.com/BostonMoves"><i class="fa fa-facebook header-social-facebook"></i></a></li>
-                        <li class="header-social-community-item"><a href="https://instagram.com/bostonmovesteam?igshid=YmMyMTA2M2Y="><i class="header-social-instagram fa fa-instagram"></i></a></li>
-                        <li class="header-social-community-item"><a href="https://www.linkedin.com/company/boston-moves-real-estate"><i class="header-social-linkedin fa fa-linkedin"></i></a></li>
+                        <li class="header-social-community-item"><a href="https://www.facebook.com/BostonMoves" target="_blank"><i class="fa fa-facebook header-social-facebook"></i></a></li>
+                        <li class="header-social-community-item"><a href="https://instagram.com/bostonmovesteam?igshid=YmMyMTA2M2Y=" target="_blank"><i class="header-social-instagram fa fa-instagram"></i></a></li>
+                        <li class="header-social-community-item"><a href="https://www.linkedin.com/company/boston-moves-real-estate" target="_blank"><i class="header-social-linkedin fa fa-linkedin"></i></a></li>
                         <li class="header-social-community-item"><a href="#"><i class="header-social-nym fa fa-user-circle" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
@@ -30,6 +30,7 @@
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/buy') ?>">BUY</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/sell') ?>">SELL</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/rent') ?>">RENT</a></li>
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/online-school') ?>">ONLINE SCHOOL</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/about-us') ?>">ABOUT US</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/career') ?>">CAREER</a></li>
                         <li class="header-main-navbar-items-list"><a href="https://www.newyorkmovesre.com/" target="_blank">NEW YORK</a></li>
