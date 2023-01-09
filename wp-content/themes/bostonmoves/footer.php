@@ -13,7 +13,6 @@
                         <div class="main-footer-info-title"><p class="main-footer-menu-child">COMPANY</p><p class="main-footer-info-title-downtri">&#9662;</p></div>
                         <ul class="main-footer-dropdown-menu">
                             <li class="main-footer-info-link"><a href="<?php echo site_url('/about-us') ?>"><p>ABOUT US</p></a></li>
-                            <li class="main-footer-info-link"><a href="<?php echo site_url('/agents') ?>"><p>OUR TEAM</p></a></li>
                             <li class="main-footer-info-link"><a href="<?php echo site_url('/careers') ?>"><p>CAREERS</p></a></li>
                         </ul>
                     </div>
@@ -23,7 +22,7 @@
                             <li class="main-footer-info-link"><a href="<?php echo site_url('/homes-for-sale-search') ?>"><p>BUY</p></a></li>
                             <li class="main-footer-info-link"><a href="<?php echo site_url('/sell') ?>"><p>SELL</p></a></li>
                             <li class="main-footer-info-link"><a href="https://newyorkmovesre.com/homes-for-sale-results/?propertyType=RNT&pg=1&sortBy=ds&cityId=52244&status=active"><p>RENT</p></a></li>
-                            <li class="main-footer-info-link"><a href="<?php echo site_url('/roommate') ?>"><p>ROOMMATES</p></a></li>
+                            <li class="main-footer-info-link"><a href="<?php echo site_url('/online-school') ?>"><p>ONLINE SCHOOL</p></a></li>
                         </ul>
                     </div>
                 </div>
