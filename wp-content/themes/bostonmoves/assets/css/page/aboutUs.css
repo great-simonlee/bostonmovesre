@@ -1,0 +1,129 @@
+.aboutus-page-header {
+  position: relative;
+  width: 100vw;
+  height: 520px;
+}
+
+.aboutus-page-header-img {
+  width: 100%;
+  height: 520px;
+}
+
+.aboutus-page-header-div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+
+.aboutus-page-header-title {
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 8px;
+}
+
+.aboutus-page-header-subtitle {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+
+.aboutus-page-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus-page-body-content {
+  margin: 100px 0;
+  text-align: center;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutus-main-catch {
+  font-size: 24px;
+  margin-bottom: 100px;
+  color: #0fa4c1;
+  width: 860px;
+}
+
+.aboutus-main-content {
+  font-size: 24px;
+  margin: 100px 0;
+  width: 860px;
+}
+
+.aboutus-divider {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.aboutus-divider > p {
+  width: 860px;
+  font-size: 24px;
+  padding: 80px 0;
+}
+
+.aboutus-join-contact-container {
+  width: 860px;
+  margin: 80px 0;
+}
+
+.aboutus-join-team > p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.aboutus-join-team-content {
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 40px 0;
+}
+
+.aboutus-contact-us > p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.aboutus-contact-us {
+  margin-top: 100px;
+}
+
+.aboutus-contact-us-info > p {
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 8px 0;
+}
+
+.aboutus-contact-sns {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 16px;
+}
+
+.aboutus-contact-sns-item > a {
+  font-size: 32px;
+  color: #000000;
+}
+
+.aboutus-contact-sns-item > a:hover {
+  color: #0fa4c1;
+}
+
+.aboutus-location-img {
+  width: 860px;
+  height: 450px;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 25%);
+}
