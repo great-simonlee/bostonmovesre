@@ -6,7 +6,8 @@
         <div class="sell-page-header-div">
             <div class="sell-page-header-text">
                 <p class="sell-page-header-title">SELL YOUR PROPERTY WITH US</p>
-                <p class="sell-page-header-subtitle">Whether you are ready to sell or just thinking about it, we can offer expert advice and get you on track.</p>
+                <p class="sell-page-header-subtitle">Whether you are ready to sell or just thinking about it.</p>
+                <p class="sell-page-header-subtitle">we can offer expert advice and get you on track.</p>
             </div>
         </div>
     </div>
