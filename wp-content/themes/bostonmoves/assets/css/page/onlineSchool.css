@@ -6,18 +6,13 @@
 
 .os-banner {
   position: relative;
-  width: 100vw;
-  height: 500px;
 }
 
 .os-banner-img {
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
 }
 
 .os-banner-text {
-  width: 100%;
-  height: 100%;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -29,24 +24,14 @@
 }
 
 .os-banner-text > p {
-  font-size: 30px;
   font-weight: lighter;
-  letter-spacing: 7px;
 }
 
 .os-body-box {
   display: flex;
   flex-direction: column;
-  width: 860px;
-  font-size: 22px;
   font-weight: lighter;
   text-align: center;
-  gap: 80px;
-  margin: 160px 0;
-}
-
-.os-body-package > p {
-  margin: 8px 0;
 }
 
 .os-body-package > p:hover {
@@ -57,19 +42,10 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 860px;
-  margin-bottom: 120px;
-  /* background-color: tomato; */
-}
-
-.os-body-application > div {
-  font-size: 28px;
-  margin-bottom: 24px;
 }
 
 .os-body-application > p {
   text-align: end;
-  font-size: 12px;
 }
 
 .os-body-form {
@@ -79,33 +55,224 @@
 }
 
 .os-body-form > label {
-  width: 100%;
   text-align: start;
-  margin: 12px 0 4px 0;
 }
 
 .os-body-form-input {
-  margin: 4px 0 12px 0;
-  padding: 12px 24px;
-  width: 100%;
   border: none;
   border-bottom: 1px #000000 solid;
-  /* height: 32px; */
 }
 
 .os-body-form-text-btn {
-  width: 360px;
-  height: 40px;
   background-color: #000000;
   color: #ffffff;
   cursor: pointer;
   outline: none;
   border: none;
   opacity: 0.9;
-  margin-top: 32px;
-  font-size: 16px;
 }
 
 .os-body-form-text-btn:hover {
   opacity: 1;
+}
+
+/* Extra large devices */
+@media (min-width: 360px) {
+  .os-banner {
+    width: 100vw;
+    height: 240px;
+  }
+
+  .os-banner-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .os-banner-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .os-banner-text > p {
+    font-size: 16px;
+    letter-spacing: 7px;
+    text-align: center;
+    width: 240px;
+  }
+
+  .os-body-box {
+    width: 240px;
+    font-size: 16px;
+    gap: 80px;
+    margin: 80px 0;
+  }
+
+  .os-body-package > p {
+    margin: 8px 0;
+  }
+
+  .os-body-application {
+    width: 240px;
+    margin-bottom: 120px;
+  }
+
+  .os-body-application > div {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .os-body-application > p {
+    font-size: 12px;
+  }
+
+  .os-body-form > label {
+    width: 100%;
+    margin: 16px 0 4px 0;
+  }
+
+  .os-body-form-input {
+    margin: 4px 0 12px 0;
+    padding: 6px 12px;
+    width: 100%;
+  }
+
+  .os-body-form-text-btn {
+    width: 240px;
+    height: 40px;
+    margin-top: 32px;
+    font-size: 16px;
+  }
+}
+
+/* Extra large devices */
+@media (min-width: 768px) {
+  .os-banner {
+    width: 100vw;
+    height: 360px;
+  }
+
+  .os-banner-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .os-banner-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .os-banner-text > p {
+    font-size: 24px;
+    letter-spacing: 7px;
+    width: 100%;
+  }
+
+  .os-body-box {
+    width: 540px;
+    font-size: 20px;
+    gap: 80px;
+    margin: 160px 0;
+  }
+
+  .os-body-package > p {
+    margin: 8px 0;
+  }
+
+  .os-body-application {
+    width: 540px;
+    margin-bottom: 120px;
+  }
+
+  .os-body-application > div {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .os-body-application > p {
+    font-size: 12px;
+  }
+
+  .os-body-form > label {
+    width: 100%;
+    margin: 12px 0 4px 0;
+  }
+
+  .os-body-form-input {
+    margin: 4px 0 12px 0;
+    padding: 12px 24px;
+    width: 100%;
+  }
+
+  .os-body-form-text-btn {
+    width: 360px;
+    height: 40px;
+    margin-top: 32px;
+    font-size: 16px;
+  }
+}
+
+/* Extra large devices */
+@media (min-width: 1024px) {
+  .os-banner {
+    width: 100vw;
+    height: 520px;
+  }
+
+  .os-banner-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .os-banner-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .os-banner-text > p {
+    font-size: 30px;
+    letter-spacing: 7px;
+  }
+
+  .os-body-box {
+    width: 860px;
+    font-size: 22px;
+    gap: 80px;
+    margin: 160px 0;
+  }
+
+  .os-body-package > p {
+    margin: 8px 0;
+  }
+
+  .os-body-application {
+    width: 860px;
+    margin-bottom: 120px;
+  }
+
+  .os-body-application > div {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+
+  .os-body-application > p {
+    font-size: 12px;
+  }
+
+  .os-body-form > label {
+    width: 100%;
+    margin: 12px 0 4px 0;
+  }
+
+  .os-body-form-input {
+    margin: 4px 0 12px 0;
+    padding: 12px 24px;
+    width: 100%;
+  }
+
+  .os-body-form-text-btn {
+    width: 360px;
+    height: 40px;
+    margin-top: 32px;
+    font-size: 16px;
+  }
 }
