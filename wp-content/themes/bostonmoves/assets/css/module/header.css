@@ -83,7 +83,15 @@
 }
 
 /* Cell phone landscape */
-@media (min-width: 576px) {
+@media (min-width: 360px) {
+  .header-logo {
+    width: 240px;
+    height: 40px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) {
   .header-social-nav-bar a {
     font-size: 15px;
   }
@@ -98,7 +106,7 @@
   }
 
   .header-logo {
-    width: 40px;
+    width: 240px;
     height: 40px;
   }
 
@@ -111,9 +119,6 @@
   .header-main-navbar-items-list {
     font-size: 18px;
   }
-}
-/* Tablets */
-@media (min-width: 768px) {
 }
 /* Large devices */
 @media (min-width: 992px) {

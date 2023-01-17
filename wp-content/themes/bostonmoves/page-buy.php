@@ -1,4 +1,8 @@
 <?php get_header(); ?>
 <!-- <h1>THIS IS BUY PAGE.</h1> -->
-<?php the_content(); ?>
+  <div style="display: flex; justify-content: center;">
+    <div style=" width: 85vw; background-color: tomato; ">
+      <?php the_content(); ?>
+    </div>
+  </div>
 <?php get_footer(); ?>

@@ -136,13 +136,28 @@
 }
 
 /* Cell phone landscape */
-@media (min-width: 576px) {
+@media (min-width: 360px) {
+  .page-careers-banner-img {
+    height: 360px;
+  }
+  .page-careers-banner-title {
+    height: 360px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 120px;
+    letter-spacing: 7px;
+  }
 }
 /* Tablets */
 @media (min-width: 768px) {
+  .page-careers-banner-img {
+    height: 520px;
+  }
   .page-careers-banner-title {
+    height: 520px;
     font-size: 30px;
     letter-spacing: 7px;
+    padding: 0px;
   }
 
   .page-careers-body-form {
