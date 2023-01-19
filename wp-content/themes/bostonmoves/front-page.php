@@ -13,8 +13,10 @@
   </div>
 </section>
 <section class="main-sales">
-  <p class="main-flisting-title">Thinking of Selling?</p>
-  <p>Find A Way To Sell Your Property With Confidence.</p>
-  <a href="<?php echo site_url('/sell') ?>"><span>Get In Touch&nbsp;&nbsp;&raquo;</span></a>
+  <div class='main-sales-cont'>
+    <a href="/sell"><div class='main-part-section front-sell-img'></div><div class='main-part-text' >SELL<br>YOUR<br>PROPERTY</div></a>
+    <a href="/about-us"><div class='main-part-section front-aboutus-img'></div><div class='main-part-text' >ABOUT<br>BOSTON<br>MOVES</div></a>
+    <a href="/career"><div class='main-part-section front-career-img'></div><div class='main-part-text' >WORK<br>WITH<br>US</div></a>
+  </div>
 </section>
 <?php get_footer(); ?>

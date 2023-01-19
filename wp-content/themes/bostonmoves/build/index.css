@@ -524,8 +524,72 @@ a:focus {
 
 .main-sales {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 80px;
+}
+
+.main-sales-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5vw;
+  width: 100vw;
+  max-width: 1960px;
+}
+
+.main-sales-cont > a {
+  position: relative;
+  width: 33vw;
+  height: 360px;
+}
+
+.main-part-section {
+  filter: brightness(0.7);
+}
+
+.front-sell-img {
+  background-image: url(images/sell_banner_img.6d1a5567.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 360px;
+  object-fit: fill;
+  background-position: center;
+}
+.front-aboutus-img {
+  background-image: url(images/BMR-ABOUT-WALLPAPER.947b77ce.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 360px;
+  object-fit: fill;
+  background-position: center;
+}
+
+.front-career-img {
+  background-image: url(images/BMR-CAREER-WALLPAPER.81570666.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 360px;
+  object-fit: fill;
+  background-position: center;
+}
+
+.main-part-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.5;
+  color: #ffffff;
+  filter: brightness(0.8);
+}
+
+.main-part-text:hover {
+  filter: brightness(1);
 }
 
 /*!****************************************************************************************************************!*\
