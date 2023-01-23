@@ -526,7 +526,6 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
   padding-top: 0.5vw;
   background-color: black;
 }
@@ -592,6 +591,90 @@ a:focus {
 
 .main-part-text:hover {
   filter: brightness(1);
+}
+
+@media (min-width: 360px) {
+  .main-banner {
+    height: 240px;
+  }
+  .main-qcontainer {
+    height: 240px;
+  }
+  .main-quote {
+    font-size: 20px;
+  }
+  .main-flisting-title {
+    font-size: 20px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin: 24px 0 16px 0;
+  }
+  .main-sales-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    width: 100vw;
+  }
+  .main-sales-cont > a {
+    width: 100vw;
+    height: 360px;
+  }
+  .front-sell-img {
+    height: 360px;
+  }
+  .front-aboutus-img {
+    height: 360px;
+  }
+  .front-career-img {
+    height: 360px;
+  }
+  .main-part-text {
+    font-size: 28px;
+  }
+}
+@media (min-width: 768px) {
+  .main-banner {
+    height: 480px;
+  }
+  .main-qcontainer {
+    height: 480px;
+  }
+  .main-quote {
+    font-size: 48px;
+  }
+  .main-flisting-title {
+    font-size: 28px;
+    margin: 36px 0 20px 0;
+  }
+  .main-sales-cont {
+    flex-direction: row;
+    gap: 0.5vw;
+    width: 100vw;
+    max-width: 1960px;
+  }
+
+  .main-sales-cont > a {
+    position: relative;
+    width: 33vw;
+    height: 360px;
+  }
+}
+@media (min-width: 1280px) {
+  .main-banner {
+    height: 680px;
+  }
+  .main-qcontainer {
+    height: 680px;
+  }
+  .main-quote {
+    font-size: 72px;
+  }
+  .main-flisting-title {
+    font-size: 36px;
+    margin: 50px 0 25px 0;
+  }
+}
+@media (min-width: 1920px) {
 }
 
 /*!****************************************************************************************************************!*\
