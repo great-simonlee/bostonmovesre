@@ -23,10 +23,19 @@
             <nav class="header-global-nav">
                 <a class="header-container" href="<?php echo site_url('/') ?>"><img class="header-logo" src="<?php echo get_theme_file_uri('/assets/img/logo/boston_header_logo.png') ?>" alt="BOSTON MOVES HOME" /></a>
                 <div class="header-main-navbar">
-                    <div class="header-menu-toggle-icon">
+                    <div class="header-menu-toggle-icon" id="navMobileToggle">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>
-                    <ul class="header-main-navbar-items">
+                    <ul class="nav-web-menu" id="navWebMenuCont">
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/buy') ?>">BUY</a></li>
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/sell') ?>">SELL</a></li>
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/rent') ?>">RENT</a></li>
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/online-school') ?>">ONLINE SCHOOL</a></li>
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/about-us') ?>">ABOUT US</a></li>
+                        <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/career') ?>">CAREER</a></li>
+                        <li class="header-main-navbar-items-list"><a href="https://www.newyorkmovesre.com/" target="_blank">NEW YORK</a></li>
+                    </ul>
+                    <ul class="nav-mobile-menu" id="navMobileMenuCont">
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/buy') ?>">BUY</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/sell') ?>">SELL</a></li>
                         <li class="header-main-navbar-items-list"><a href="<?php echo site_url('/rent') ?>">RENT</a></li>

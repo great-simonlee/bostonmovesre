@@ -1,6 +1,34 @@
 /******/ (function() { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/header/mobileMenu.js":
+/*!**********************************!*\
+  !*** ./src/header/mobileMenu.js ***!
+  \**********************************/
+/***/ (function() {
+
+// if (window.location.pathname === '/detail/') {
+//   window.addEventListener('DOMContentLoaded', () => {})}
+window.addEventListener('DOMContentLoaded', () => {
+  console.log(window.innerWidth < 992);
+  console.log('Loaded');
+  const mobileMenuToggle = document.querySelector('#navMobileToggle');
+  const mobileMenuCont = document.querySelector('#navMobileMenuCont');
+  let mobileMenu = false;
+  mobileMenuToggle.addEventListener('click', () => {
+    mobileMenu = !mobileMenu;
+
+    if (mobileMenu) {
+      mobileMenuCont.style.display = 'flex';
+    } else {
+      mobileMenuCont.style.display = 'none';
+    }
+
+    console.log(mobileMenu);
+  });
+});
+
+/***/ }),
 
 /***/ "./src/index.js":
 /*!**********************!*\
@@ -8,9 +36,14 @@
   \**********************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/css/style.css */ "./assets/css/style.css");
+/* harmony import */ var _header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/mobileMenu.js */ "./src/header/mobileMenu.js");
+/* harmony import */ var _header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1__);
 // CSS
+ // JS
+
 
 
 /***/ }),
@@ -21,6 +54,7 @@ __webpack_require__.r(__webpack_exports__);
   \******************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
@@ -88,6 +122,30 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 				}
 /******/ 			}
 /******/ 			return result;
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	!function() {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = function(module) {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				function() { return module['default']; } :
+/******/ 				function() { return module; };
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	!function() {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = function(exports, definition) {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
 /******/ 		};
 /******/ 	}();
 /******/ 	

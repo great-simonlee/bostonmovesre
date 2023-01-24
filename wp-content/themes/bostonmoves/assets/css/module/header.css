@@ -24,11 +24,12 @@
 
 /* NAVBAR WITH MENU */
 .header-global-nav {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #000;
-  padding: 1vh 2vw;
+  padding: 8px 7px;
   color: #fff;
 }
 
@@ -58,8 +59,34 @@
   margin-right: 1rem;
 }
 
+.nav-mobile-menu {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  top: 59px;
+  left: 0;
+  z-index: 5;
+  width: 100vw;
+  text-align: center;
+  background-color: #000;
+  padding-bottom: 24px;
+}
+
+.nav-web-menu {
+  display: none;
+}
+
 .header-main-navbar-items {
   display: none;
+  position: absolute;
+  flex-direction: column;
+  top: 59px;
+  left: 0;
+  z-index: 5;
+  width: 100vw;
+  text-align: center;
+  background-color: #000;
+  padding-bottom: 24px;
 }
 
 .showHeaderMenu {
@@ -149,8 +176,31 @@
     display: none;
   }
 
+  .nav-web-menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    padding-bottom: 0px;
+  }
+
+  .nav-mobile-menu {
+    display: none;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    padding-bottom: 0px;
+  }
+
   .header-main-navbar-items {
     display: flex;
+    flex-direction: row;
+    position: static;
+    width: auto;
+    background-color: transparent;
+    padding-bottom: 0px;
   }
 
   .header-main-navbar-items-list {
