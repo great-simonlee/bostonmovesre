@@ -1,5 +1,6 @@
 <?php get_header(); ?>
-<h1>THIS IS RENT PAGE</h1>
-<?php the_content(); ?>
 
+<div style="display: flex; width: 90vw; justify-content: center">
+<?php the_content(); ?>
+</div>
 <?php get_footer(); ?>
