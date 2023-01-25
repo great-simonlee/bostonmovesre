@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div>
-<div>
+<div style="display: flex; justify-content: center;">
+<div style="width: 90vw;">
 <?php the_content(); ?>
 </div>
 </div>
