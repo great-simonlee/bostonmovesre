@@ -23,11 +23,12 @@
                 <p class="sell-page-body-content-text">Please contact us anytime anywhere without hesitation.</p>
                 <p class="sell-page-body-content-text">We are here to help you with our best.</p>
                 <div class="sell-page-email-input-box">
-                    <input class="sell-page-email-input" type="text" placeholder="Name" />
-                    <input class="sell-page-email-input" type="text" placeholder="Email" />
-                    <input class="sell-page-email-input" type="text" placeholder="Phone" />
-                    <input class="sell-page-email-input" type="text" placeholder="Zipcode" />
-                    <button class="sell-page-email-text-btn">CONTACT US</button>
+                    <input class="sell-page-email-input" type="text" placeholder="Name" id="sellEmailName"/>
+                    <input class="sell-page-email-input" type="text" placeholder="Email" id="sellEmailEmail"/>
+                    <input class="sell-page-email-input" type="text" placeholder="Phone" id="sellEmailPhone"/>
+                    <input class="sell-page-email-input" type="text" placeholder="Zipcode" id="sellEmailZip"/>
+                    <textarea class="sell-page-email-input" style="resize: none; height: 120px; font-family: 'Montserrat', sans-serif;" placeholder="Please let us know about your valuable property" id="sellEmailDesc"></textarea>
+                    <button class="sell-page-email-text-btn" id="sellEmailBtn">CONTACT US</button>
                 </div>
             </div>
         </div>

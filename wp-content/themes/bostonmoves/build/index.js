@@ -1,6 +1,33 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/email/sell.js":
+/*!***************************!*\
+  !*** ./src/email/sell.js ***!
+  \***************************/
+/***/ (function() {
+
+if (window.location.pathname === '/sell/') {
+  window.addEventListener('DOMContentLoaded', () => {
+    const emailSendBtn = document.querySelector('#sellEmailBtn');
+    const emailName = document.querySelector('#sellEmailName');
+    const emailEmail = document.querySelector('#sellEmailEmail');
+    const emailPhone = document.querySelector('#sellEmailPhone');
+    const emailZip = document.querySelector('#sellEmailZip');
+    const emailDesc = document.querySelector('#sellEmailDesc');
+    emailSendBtn.addEventListener('click', () => {
+      console.log(emailName.value);
+      console.log(emailEmail.value);
+      console.log(emailPhone.value);
+      console.log(emailZip.value);
+      console.log(emailDesc.value);
+      console.log('Confirmed');
+    });
+  });
+}
+
+/***/ }),
+
 /***/ "./src/header/mobileMenu.js":
 /*!**********************************!*\
   !*** ./src/header/mobileMenu.js ***!
@@ -10,8 +37,6 @@
 // if (window.location.pathname === '/detail/') {
 //   window.addEventListener('DOMContentLoaded', () => {})}
 window.addEventListener('DOMContentLoaded', () => {
-  console.log(window.innerWidth < 992);
-  console.log('Loaded');
   const mobileMenuToggle = document.querySelector('#navMobileToggle');
   const mobileMenuCont = document.querySelector('#navMobileMenuCont');
   let mobileMenu = false;
@@ -23,8 +48,6 @@ window.addEventListener('DOMContentLoaded', () => {
     } else {
       mobileMenuCont.style.display = 'none';
     }
-
-    console.log(mobileMenu);
   });
 });
 
@@ -41,8 +64,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/css/style.css */ "./assets/css/style.css");
 /* harmony import */ var _header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header/mobileMenu.js */ "./src/header/mobileMenu.js");
 /* harmony import */ var _header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _email_sell_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./email/sell.js */ "./src/email/sell.js");
+/* harmony import */ var _email_sell_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_email_sell_js__WEBPACK_IMPORTED_MODULE_2__);
 // CSS
  // JS
+
 
 
 
