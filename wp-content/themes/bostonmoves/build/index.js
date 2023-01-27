@@ -1,6 +1,90 @@
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/email/career.js":
+/*!*****************************!*\
+  !*** ./src/email/career.js ***!
+  \*****************************/
+/***/ (function() {
+
+if (window.location.pathname === '/career/') {
+  window.addEventListener('DOMContentLoaded', () => {
+    emailjs.init('XfVl5KseF47HmnaJr');
+    const emailForm = document.querySelector('#career-submission');
+    const confirmDiv = document.querySelector('#career-confirm-msg');
+    const emailSendBtn = document.querySelector('#careerEmailBtn'); // const emailName = document.querySelector('#sellEmailName');
+    // const emailEmail = document.querySelector('#sellEmailEmail');
+    // const emailPhone = document.querySelector('#sellEmailPhone');
+    // const emailZip = document.querySelector('#sellEmailZip');
+    // const emailDesc = document.querySelector('#sellEmailDesc');
+
+    emailSendBtn.addEventListener('click', event => {
+      event.preventDefault(); // console.log(emailName.value);
+      // console.log(emailEmail.value);
+      // console.log(emailPhone.value);
+      // console.log(emailZip.value);
+      // console.log(emailDesc.value);
+      // console.log('Confirmed');
+
+      emailjs.sendForm('service_jojfbg8', 'template_xhuuo2e', emailForm).then(function () {
+        console.log('SUCCESS!');
+        emailForm.style.display = 'none';
+        confirmDiv.style.display = 'flex';
+      }, function (error) {
+        console.log('FAILED...', error);
+      });
+      window.scrollTo({
+        bottom: 0,
+        behavior: 'smooth'
+      });
+    });
+  });
+}
+
+/***/ }),
+
+/***/ "./src/email/onlineSchool.js":
+/*!***********************************!*\
+  !*** ./src/email/onlineSchool.js ***!
+  \***********************************/
+/***/ (function() {
+
+if (window.location.pathname === '/online-school/') {
+  window.addEventListener('DOMContentLoaded', () => {
+    emailjs.init('XfVl5KseF47HmnaJr');
+    const emailForm = document.querySelector('#os-submission');
+    const confirmDiv = document.querySelector('#os-confirm-msg');
+    const emailSendBtn = document.querySelector('#osEmailBtn'); // const emailName = document.querySelector('#sellEmailName');
+    // const emailEmail = document.querySelector('#sellEmailEmail');
+    // const emailPhone = document.querySelector('#sellEmailPhone');
+    // const emailZip = document.querySelector('#sellEmailZip');
+    // const emailDesc = document.querySelector('#sellEmailDesc');
+
+    emailSendBtn.addEventListener('click', event => {
+      event.preventDefault(); // console.log(emailName.value);
+      // console.log(emailEmail.value);
+      // console.log(emailPhone.value);
+      // console.log(emailZip.value);
+      // console.log(emailDesc.value);
+      // console.log('Confirmed');
+
+      emailjs.sendForm('service_jojfbg8', 'template_xhuuo2e', emailForm).then(function () {
+        console.log('SUCCESS!');
+        emailForm.style.display = 'none';
+        confirmDiv.style.display = 'flex';
+      }, function (error) {
+        console.log('FAILED...', error);
+      });
+      window.scrollTo({
+        bottom: 0,
+        behavior: 'smooth'
+      });
+    });
+  });
+}
+
+/***/ }),
+
 /***/ "./src/email/sell.js":
 /*!***************************!*\
   !*** ./src/email/sell.js ***!
@@ -9,19 +93,34 @@
 
 if (window.location.pathname === '/sell/') {
   window.addEventListener('DOMContentLoaded', () => {
-    const emailSendBtn = document.querySelector('#sellEmailBtn');
-    const emailName = document.querySelector('#sellEmailName');
-    const emailEmail = document.querySelector('#sellEmailEmail');
-    const emailPhone = document.querySelector('#sellEmailPhone');
-    const emailZip = document.querySelector('#sellEmailZip');
-    const emailDesc = document.querySelector('#sellEmailDesc');
-    emailSendBtn.addEventListener('click', () => {
-      console.log(emailName.value);
-      console.log(emailEmail.value);
-      console.log(emailPhone.value);
-      console.log(emailZip.value);
-      console.log(emailDesc.value);
-      console.log('Confirmed');
+    emailjs.init('XfVl5KseF47HmnaJr');
+    const emailForm = document.querySelector('#sell-submission');
+    const confirmDiv = document.querySelector('#sell-confirm-msg');
+    const emailSendBtn = document.querySelector('#sellEmailBtn'); // const emailName = document.querySelector('#sellEmailName');
+    // const emailEmail = document.querySelector('#sellEmailEmail');
+    // const emailPhone = document.querySelector('#sellEmailPhone');
+    // const emailZip = document.querySelector('#sellEmailZip');
+    // const emailDesc = document.querySelector('#sellEmailDesc');
+
+    emailSendBtn.addEventListener('click', event => {
+      event.preventDefault(); // console.log(emailName.value);
+      // console.log(emailEmail.value);
+      // console.log(emailPhone.value);
+      // console.log(emailZip.value);
+      // console.log(emailDesc.value);
+      // console.log('Confirmed');
+
+      emailjs.sendForm('service_jojfbg8', 'template_xhuuo2e', emailForm).then(function () {
+        console.log('SUCCESS!');
+        emailForm.style.display = 'none';
+        confirmDiv.style.display = 'flex';
+      }, function (error) {
+        console.log('FAILED...', error);
+      });
+      window.scrollTo({
+        bottom: 0,
+        behavior: 'smooth'
+      });
     });
   });
 }
@@ -66,8 +165,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_header_mobileMenu_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _email_sell_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./email/sell.js */ "./src/email/sell.js");
 /* harmony import */ var _email_sell_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_email_sell_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _email_onlineSchool_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./email/onlineSchool.js */ "./src/email/onlineSchool.js");
+/* harmony import */ var _email_onlineSchool_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_email_onlineSchool_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _email_career_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./email/career.js */ "./src/email/career.js");
+/* harmony import */ var _email_career_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_email_career_js__WEBPACK_IMPORTED_MODULE_4__);
 // CSS
  // JS
+
+
 
 
 

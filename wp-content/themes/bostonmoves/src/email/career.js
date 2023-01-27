@@ -1,11 +1,11 @@
-if (window.location.pathname === '/sell/') {
+if (window.location.pathname === '/career/') {
   window.addEventListener('DOMContentLoaded', () => {
     emailjs.init('XfVl5KseF47HmnaJr');
 
-    const emailForm = document.querySelector('#sell-submission');
-    const confirmDiv = document.querySelector('#sell-confirm-msg');
+    const emailForm = document.querySelector('#career-submission');
+    const confirmDiv = document.querySelector('#career-confirm-msg');
 
-    const emailSendBtn = document.querySelector('#sellEmailBtn');
+    const emailSendBtn = document.querySelector('#careerEmailBtn');
     // const emailName = document.querySelector('#sellEmailName');
     // const emailEmail = document.querySelector('#sellEmailEmail');
     // const emailPhone = document.querySelector('#sellEmailPhone');

@@ -1,11 +1,11 @@
-if (window.location.pathname === '/sell/') {
+if (window.location.pathname === '/online-school/') {
   window.addEventListener('DOMContentLoaded', () => {
     emailjs.init('XfVl5KseF47HmnaJr');
 
-    const emailForm = document.querySelector('#sell-submission');
-    const confirmDiv = document.querySelector('#sell-confirm-msg');
+    const emailForm = document.querySelector('#os-submission');
+    const confirmDiv = document.querySelector('#os-confirm-msg');
 
-    const emailSendBtn = document.querySelector('#sellEmailBtn');
+    const emailSendBtn = document.querySelector('#osEmailBtn');
     // const emailName = document.querySelector('#sellEmailName');
     // const emailEmail = document.querySelector('#sellEmailEmail');
     // const emailPhone = document.querySelector('#sellEmailPhone');

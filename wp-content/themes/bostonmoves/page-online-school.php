@@ -21,22 +21,26 @@
     <p>Although you are not obligated to work for Boston Moves nor guaranteed a position after you complete the course, we definitely put applicants at the top of the list if they completed the course with us.</p>
   </div>
   <div class="os-body-application">
-    <div>Contact Us Now</div>
-    <p>Fields marked with * are required.</p>
-    <form class="os-body-form applicationSubmit">
-        <label for="os-body-form-fname">First Name *</label>
-        <input id="os-body-form-fname" class="os-body-form-input" type="text" name="user_fname" required>
-        <label for="os-body-form-lname">Last Name *</label>
-        <input id="os-body-form-lname" class="os-body-form-input" type="text" name="user_lname" required>
-        <label for="os-body-form-email">Email *</label>
-        <input id="os-body-form-email" class="os-body-form-input" type="text" name="user_email" required>
-        <label for="os-body-form-phone">Phone *</label>
-        <input id="os-body-form-phone" class="os-body-form-input" type="text" name="user_sns" required>
-        <input class="os-body-form-input" type="text" name="to_email" value="ken@newyorkmovesre.com" style="display: none;">
-        <label for="os-body-form-msg">Message</label>
-        <textarea id="os-body-form-msg" name="message" class="os-body-form-input os-body-form-textarea" placeholder="Please tell us more about you! Or, you can copy and paste your resume here!"></textarea>
-        <button type="submit" class="os-body-form-text-btn">Send email</button>
+    <form class="os-body-form applicationSubmit" id="os-submission">
+      <div>Contact Us Now</div>
+      <p>Fields marked with * are required.</p>
+      <input name="title" class="sell-page-email-input" type="text" id="sellEmailTitle" style="display: none" value="Online License Program" />
+      <input name="category" class="sell-page-email-input" type="text" id="sellEmailCategory" style="display: none" value="online license program" />
+      <label for="os-body-form-name">Full Name *</label>
+      <input id="os-body-form-name" class="os-body-form-input" type="text" name="name" required>
+      <label for="os-body-form-email">Email *</label>
+      <input id="os-body-form-email" class="os-body-form-input" type="text" name="email" required>
+      <label for="os-body-form-phone">Phone *</label>
+      <input id="os-body-form-phone" class="os-body-form-input" type="text" name="phone" required>
+      <input class="os-body-form-input" type="text" name="zip" value="" style="display: none;">
+      <label for="os-body-form-msg">Message</label>
+      <textarea id="os-body-form-msg" name="desc" class="os-body-form-input os-body-form-textarea" placeholder="Please tell us more about you! Or, you can copy and paste your resume here!"></textarea>
+      <button type="submit" class="os-body-form-text-btn" id="osEmailBtn">Send email</button>
     </form>
+    <div id="os-confirm-msg" style="display: none; text-align: center; flex-direction: column;">
+        <h3>THANK YOU SO MUCH FOR SENDING US AN INQUIRY</h3>
+        <h3>WE WILL COME BACK WITH YOU SHOTLY</h3>
+    </div>
     <!-- <div class="applicationSent hideEmailDiv">
         <h4>Thank you for your interest in joining Boston Moves Real Estate Team.</h4>
         <h4>We will review your application and look forward to getting in touch with you soon.</h4>

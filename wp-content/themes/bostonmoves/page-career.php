@@ -63,26 +63,30 @@
             </div>
         </div> -->
         <div class="page-careers-body-application">
-            <div>Apply Now</div>
-            <p>Fields marked with * are required.</p>
-            <form class="page-careers-body-form applicationSubmit">
-                <label for="page-careers-body-form-fname">First Name *</label>
-                <input id="page-careers-body-form-fname" class="page-careers-body-form-input" type="text" name="user_fname" required>
-                <label for="page-careers-body-form-lname">Last Name *</label>
-                <input id="page-careers-body-form-lname" class="page-careers-body-form-input" type="text" name="user_lname" required>
+            <form class="page-careers-body-form applicationSubmit" id="career-submission">
+                <div>Apply Now</div>
+                <p>Fields marked with * are required.</p>
+                <input name="title" class="sell-page-email-input" type="text" id="sellEmailTitle" style="display: none" value="Job Application" />
+                <input name="category" class="sell-page-email-input" type="text" id="sellEmailCategory" style="display: none" value="job application" />
+                <label for="page-careers-body-form-name">Full Name *</label>
+                <input id="page-careers-body-form-name" class="page-careers-body-form-input" type="text" name="name" required>
                 <label for="page-careers-body-form-email">Email *</label>
-                <input id="page-careers-body-form-email" class="page-careers-body-form-input" type="text" name="user_email" required>
+                <input id="page-careers-body-form-email" class="page-careers-body-form-input" type="text" name="email" required>
                 <label for="page-careers-body-form-phone">Phone *</label>
-                <input id="page-careers-body-form-phone" class="page-careers-body-form-input" type="text" name="user_sns" required>
-                <input class="page-careers-body-form-input" type="text" name="to_email" value="ken@newyorkmovesre.com" style="display: none;">
+                <input id="page-careers-body-form-phone" class="page-careers-body-form-input" type="text" name="phone" required>
+                <input class="page-careers-body-form-input" type="text" name="zip" value="" style="display: none;">
                 <label for="page-careers-body-form-msg">Message</label>
-                <textarea id="page-careers-body-form-msg" name="message" class="page-careers-body-form-input page-careers-body-form-textarea" placeholder="Please tell us more about you! Or, you can copy and paste your resume here!"></textarea>
-                <button type="submit" class="page-careers-body-form-text-btn">Send Email</button>
+                <textarea id="page-careers-body-form-msg" name="desc" class="page-careers-body-form-input page-careers-body-form-textarea" placeholder="Please tell us more about you! Or, you can copy and paste your resume here!"></textarea>
+                <button type="submit" class="page-careers-body-form-text-btn" id="careerEmailBtn">Send Email</button>
             </form>
-            <div class="applicationSent hideEmailDiv">
+            <div id="career-confirm-msg" style="display: none; text-align: center; flex-direction: column;">
+                <h3>THANK YOU SO MUCH FOR SENDING US AN INQUIRY</h3>
+                <h3>WE WILL COME BACK WITH YOU SHOTLY</h3>
+            </div>
+            <!-- <div class="applicationSent hideEmailDiv">
                 <h4>Thank you for your interest in joining Boston Moves Real Estate Team.</h4>
                 <h4>We will review your application and look forward to getting in touch with you soon.</h4>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="page-careers-footer">
